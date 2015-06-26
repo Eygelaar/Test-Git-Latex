@@ -45,29 +45,38 @@
 \tnotetext[mytitlenote]{Elsevier Latex Template template}
 
 %% Group authors per affiliation:
-\author{BG Lindner\fnref{myfootnote} \& J Eygelaar \& JH van Vuuren}
-\address{Radarweg 29, Amsterdam}
-\fntext[myfootnote]{Department of Industrial Engineering, Stellenbosch University, Private bag X1, Matieland, 7602, South
-Africa, fax: 021 8082409, email: 15150526@sun.ac.za}
+\author{BG Lindner \corref{mycorrespondingauthor} \& J Eygelaar \& JH van Vuuren}
+% \address{Radarweg 29, Amsterdam}
+% \fntext[myfootnote]{}
 
 %% or include affiliations in footnotes:z
-\author[mymainaddress,mysecondaryaddress]{Elsevier Inc}
-\ead[url]{www.elsevier.com}
+% \author[mymainaddress,mysecondaryaddress]{}
+% \ead[url]{www.elsevier.com}
 
-\author[mysecondaryaddress]{Global Customer Service\corref{mycorrespondingauthor}}
-\cortext[mycorrespondingauthor]{Corresponding author}
-\ead{support@elsevier.com}
+% \author[mysecondaryaddress]{Global Customer Service}
+\cortext[mycorrespondingauthor]{Department of Industrial Engineering, Stellenbosch University, Private bag X1, Matieland, 7602, South
+Africa, fax: 021 8082409, email: 15150526@sun.ac.za}
+% \ead{support@elsevier.com}
 
-\address[mymainaddress]{1600 John F Kennedy Boulevard, Philadelphia}
-\address[mysecondaryaddress]{360 Park Avenue South, New York}
+% \address[mymainaddress]{1600 John F Kennedy Boulevard, Philadelphia}
+% \address[mysecondaryaddress]{360 Park Avenue South, New York}
 
 \begin{abstract}
-This template helps you to create a properly formatted \LaTeX\ manuscript.
+Providing reliable energy is a major force in shaping the economic welfare of a developing country. For a power utility in such a country one of the key focus areas is the planned preventative
+maintenance of the power generating units in its power system. The celebrated \textit{generator maintenance scheduling} (GMS) problem is the problem of finding a schedule
+for the planned maintenance outages of generating units in a power system. 
+A novel tri-objective model formulation is proposed for the GMS problem.
+The first (and most commonly adopted) objective involves minimising the squared reserve levels, which serves to create an even (``reliable'') margin of generating capacity over and above expected demand. 
+The second objective involves the
+production cost associated with a maintenance plan for the generating units in a system, where planning maintenance on a power generating unit which is cheap to operate during a high demand period will incur 
+a higher production cost. The third objective
+involves the risk (on expectation) of generating units breaking down, where the longer the time period since the last maintenance service of a generating unit, the larger the risk of it breaking down.
+The solutions to this GMS problem, \textit{i.e.}\ maintenance plans, may be used by decision makers within a national power utility. 
 \end{abstract}
 
 \begin{keyword}
-\texttt{elsarticle.cls}\sep \LaTeX\sep Elsevier \sep template
-\MSC[2010] 00-01\sep  99-00
+Generator maintenance scheduling, Simulated annealing, power system, reliability
+%\MSC[2010] 00-01\sep  99-00
 \end{keyword}
 
 \end{frontmatter}

@@ -50,7 +50,7 @@
 \fntext[myfootnote]{Department of Industrial Engineering, Stellenbosch University, Private bag X1, Matieland, 7602, South
 Africa, fax: 021 8082409, email: 15150526@sun.ac.za}
 
-%% or include affiliations in footnotes:
+%% or include affiliations in footnotes:z
 \author[mymainaddress,mysecondaryaddress]{Elsevier Inc}
 \ead[url]{www.elsevier.com}
 
@@ -67,7 +67,7 @@ This template helps you to create a properly formatted \LaTeX\ manuscript.
 
 \begin{keyword}
 \texttt{elsarticle.cls}\sep \LaTeX\sep Elsevier \sep template
-\MSC[2010] 00-01\sep  99-00
+%\MSC[2010] 00-01\sep  99-00
 \end{keyword}
 
 \end{frontmatter}
